@@ -423,7 +423,6 @@ def get_analytics():
     except Exception as e:
         return jsonify({'error': str(e)}), 500
     
-app.run(debug=True)
 
 
 # # Cart Routes
